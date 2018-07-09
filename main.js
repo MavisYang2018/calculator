@@ -2,16 +2,21 @@
 var display = '';
 
 // number button
+
 function btn_num_1() {
     var num = document.getElementById('btn_num_1');
     display += num.value;
-    console.log(display);
+    
+    document.getElementById('display').innerText = 1;
 }
+
+
+
 
 function btn_num_2() {
     var num = document.getElementById('btn_num_2');
     display += num.value;
-    console.log(display);
+    document.getElementById('display').innerText = 2;
     
 }
 
@@ -53,6 +58,12 @@ function btn_num_8() {
 
 function btn_num_9() {
     var num = document.getElementById('btn_num_9');
+    display += num.value;
+    console.log(display);
+}
+
+function btn_num_0() {
+    var num = document.getElementById('btn_num_0');
     display += num.value;
     console.log(display);
 }

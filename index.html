@@ -6,15 +6,20 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css" />
-    <script src="main.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
     <div class="box">
-        <div class="show" id="display">
-            <input value=""></input>
-            </div>
+        
 
             <table>
+                <tr> 
+                    <td colspan="4" >
+                        <span class="show" id="display">0</span> 
+                        
+                    </td>
+                </tr>
+                
                 <tr>
                     <td><button id="btn_opra_1" onclick="btn_opra_1" value="">AC</button></td>
                     <td><button id="btn_opra_2" onclick="btn_opra_2" value="">+/-</button></td>
@@ -36,6 +41,7 @@
                     <td><button id="btn_opra_6" onclick="btn_opra_6" value="">-</button></td>
                 </tr>
 
+
                 <tr>
                     <td><button id="btn_num_1" onclick="btn_num_1()" value="1">1</button></td>
                     <td><button id="btn_num_2" onclick="btn_num_2()" value="2">2</button></td>
@@ -44,7 +50,7 @@
                 </tr>
 
                 <tr>
-                    <td colspan="2" id="btn_num_0" onclick="btn_num_0()" value="0"><button>0</button></td>
+                    <td colspan="2"><button id="btn_num_0" onclick="btn_num_0()" value="0">0</button></td>
                     <td><button id="btn_opra_8" onclick="btn_opra_8" value="">.</button></td>
                     <td><button id="btn_opra_9" onclick="btn_opra_9" value="">=</button></td>
                 </tr>
@@ -54,5 +60,7 @@
             
             </table>
     </div>
+
+    
 </body>
 </html>
