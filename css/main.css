@@ -1,20 +1,37 @@
-* {
-  border: solid 1px #985309; }
-
 html, body {
   padding: 0px;
   margin: 0px;
-  color: #FDFDFD; }
+  color: #FDFDFD;
+  position: relative; }
 
-.show {
-  width: 100%;
-  height: 100px;
-  color: #B9B9B9; }
+.box {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  background-color: #425865; }
+  .box table {
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: absolute; }
+    .box table .show_num {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      height: 150px;
+      font-size: 25px; }
+    .box table span.show {
+      width: 300px;
+      height: 100%;
+      color: #FDFDFD; }
 
 button {
   text-align: center;
   background-color: #FDFDFD;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  border: none;
+  font-size: 20px; }
 
 /*# sourceMappingURL=main.css.map */
