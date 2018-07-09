@@ -6,8 +6,6 @@ var display = '';
 function btn_num_1() {
     var num = document.getElementById('btn_num_1');
     display += num.value;
-    
-    document.getElementById('display').innerText = 1;
 }
 
 
@@ -124,3 +122,7 @@ function btn_opra_9() {
     console.log(display);
 }
 
+function show(){
+    var showString = 
+    document.getElementById('display').innerText
+} 
