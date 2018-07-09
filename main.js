@@ -64,3 +64,52 @@ function btn_opra_1() {
     display += operator.value;
     console.log(display);
 }
+
+function btn_opra_2() {
+    var operator = document.getElementById('btn_opra_2');
+    display += operator.value;
+    console.log(display);
+}
+
+function btn_opra_3() {
+    var operator = document.getElementById('btn_opra_3');
+    display += operator.value;
+    console.log(display);
+}
+
+function btn_opra_4() {
+    var operator = document.getElementById('btn_opra_4');
+    display += operator.value;
+    console.log(display);
+}
+
+function btn_opra_5() {
+    var operator = document.getElementById('btn_opra_5');
+    display += operator.value;
+    console.log(display);
+}
+
+function btn_opra_6() {
+    var operator = document.getElementById('btn_opra_6');
+    display += operator.value;
+    console.log(display);
+}
+
+function btn_opra_7() {
+    var operator = document.getElementById('btn_opra_7');
+    display += operator.value;
+    console.log(display);
+}
+
+function btn_opra_8() {
+    var operator = document.getElementById('btn_opra_8');
+    display += operator.value;
+    console.log(display);
+}
+
+function btn_opra_9() {
+    var operator = document.getElementById('btn_opra_8');
+    display += operator.value;
+    console.log(display);
+}
+
