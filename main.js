@@ -143,9 +143,10 @@ function btn_equl() {
     function caculate (input) {
         return new Function('return ' + input)();
     };
-
-
     
-    var result =  caculate (display);
+    var s = display;
+    s = s.replace(/&divide/g,'/');
+    s = s.replace(/&times/g,'*');
+    var result =  caculate (s);
     now_display.value = result;
 }
