@@ -69,10 +69,15 @@ function btn_num_0() {
 
 // operator
 function btn_opra_1() {
-    var ac = document.getElementById('btn_opra_1');
-    display += ac.value("");
-    document.getElementById('display').innerHTML = display;
+    var now_display = document.getElementById('display');
+    now_display.innerHTML = '0';
+    display += "";
+    // console.log(now_display);
+    // var ac = document.getElementById('btn_opra_1');
+    // ac.value += "";
+    // console.log(display);
 }
+
 
 function btn_opra_2() {
     var operator = document.getElementById('btn_opra_2');
