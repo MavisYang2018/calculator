@@ -68,15 +68,15 @@ function btn_num_0() {
 
 
 // operator
-function btn_opra_1() {
-    var now_display = document.getElementById('display');
-    now_display.innerHTML = '0';
-    display += "";
-    // console.log(now_display);
-    // var ac = document.getElementById('btn_opra_1');
-    // ac.value += "";
-    // console.log(display);
-}
+// function btn_opra_1() {
+//     var now_display = document.getElementById('display');
+//     now_display.innerHTML = '0';
+//     now_display.value = '0';
+//     console.log(now_display.value);
+//     // var ac = document.getElementById('btn_opra_1');
+//     // ac.value += "";
+//     // console.log(display);
+// }
 
 
 function btn_opra_2() {
@@ -133,3 +133,13 @@ function btn_opra_9() {
 // } 
 
 // ac
+
+function btn_opra_1() {
+    var now_display = document.getElementById('display');
+    now_display.innerHTML = '0';
+    now_display.value = '';
+    console.log(now_display.value);
+    // var ac = document.getElementById('btn_opra_1');
+    // ac.value += "";
+    // console.log(display);
+}
