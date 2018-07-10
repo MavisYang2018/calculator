@@ -11,7 +11,7 @@ $color-orange: #F8874F
 html,body 
     padding: 0px
     margin: 0px
-    color: $color-white
+    background-color: $color-white
 
     position: relative
     font-family: '微軟正黑體'
@@ -21,10 +21,12 @@ html,body
     height: 420px
     
     position: absolute
+    overflow: hidden
     left: 50%
     top: 100px
     transform: translateX(-50%)
     background-color: $color-grey
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3)
 
     table
         width: 100%
@@ -32,7 +34,7 @@ html,body
         border: none
         position: absolute
         color: $color-dark
-        box-shadow: 0px 0px 10px rgba(0,0,0,0.1)
+        
         
         .show_num
             width: 250px
@@ -40,6 +42,7 @@ html,body
             
             font-size: 30px
             text-align: right
+            
             
             
         span.show
