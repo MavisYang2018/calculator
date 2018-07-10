@@ -1,6 +1,7 @@
 
 var display = '';
 
+
 // number button
 
 function btn_num_1() {
@@ -121,19 +122,19 @@ function btn_opra_8() {
     document.getElementById('display').value = display;
 }
 
-function btn_opra_9() {
-    var operator = document.getElementById('btn_opra_8');
-    display += operator.value;
-    document.getElementById('display').value = display;
-}
+// function btn_opra_9() {
+//     var operator = document.getElementById('btn_opra_9');
+//     display += operator.value;
+//     document.getElementById('display').value = display;
+// }
 
 
 
 function btn_opra_1() {
-    var display = document.getElementById('display');
-    display.value = "0";
-    
-    console.log(display);
+    var now_display = document.getElementById('display');
+    now_display.value = "0";
+    // var display = now_display.value;
+    // display.innerHTML = "0";
     
     
     // var ac = document.getElementById('btn_opra_1');
@@ -143,8 +144,8 @@ function btn_opra_1() {
 
 
 
-// function result(input) {
-//     return new Function('return' + input)();
-// }
+function result(input) {
+    return new Function('return' + input)();
+}
 
 // console.log(result('1+2'));
