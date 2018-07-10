@@ -1,4 +1,3 @@
-
 var display = '';
 
 
@@ -16,7 +15,7 @@ function btn_num_2() {
     var num = document.getElementById('btn_num_2');
     display += num.value;
     document.getElementById('display').value = display;
-    
+
 }
 
 function btn_num_3() {
@@ -134,19 +133,21 @@ function btn_opra_1() {
     var now_display = document.getElementById('display');
     display = "";
     now_display.value = display;
-    
-    
+
+
 }
 
 function btn_equl() {
     var now_display = document.getElementById('display');
-    function caculate (input) {
+
+    function caculate(input) {
         return new Function('return ' + input)();
     };
-    
+
     var s = display;
-    s = s.replace(/&divide/g,'/');
-    s = s.replace(/&times/g,'*');
-    var result =  caculate (s);
+    s = s.replace(/÷/g, '/');
+    s = s.replace(/×/g, '*');
+    s = s.replace(/−/g, '-');
+    var result = caculate(s);
     now_display.value = result;
 }
