@@ -132,20 +132,20 @@ function btn_opra_8() {
 
 function btn_opra_1() {
     var now_display = document.getElementById('display');
-    now_display.value = "0";
-    // var display = now_display.value;
-    // display.innerHTML = "0";
+    display = "";
+    now_display.value = display;
     
     
-    // var ac = document.getElementById('btn_opra_1');
-    // ac.value += "";
-    // console.log(display);
 }
 
+function btn_equl() {
+    var now_display = document.getElementById('display');
+    function caculate (input) {
+        return new Function('return ' + input)();
+    };
 
 
-function result(input) {
-    return new Function('return' + input)();
+    
+    var result =  caculate (display);
+    now_display.value = result;
 }
-
-// console.log(result('1+2'));
